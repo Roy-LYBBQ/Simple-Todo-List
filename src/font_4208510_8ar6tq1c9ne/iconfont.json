@@ -1,0 +1,30 @@
+{
+  "id": "4208510",
+  "name": "todo list icons",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1273256",
+      "name": "删除",
+      "font_class": "icon",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "2103744",
+      "name": "对勾-未勾选",
+      "font_class": "duigou-weigouxuan",
+      "unicode": "e8df",
+      "unicode_decimal": 59615
+    },
+    {
+      "icon_id": "8288980",
+      "name": "勾",
+      "font_class": "gou",
+      "unicode": "e867",
+      "unicode_decimal": 59495
+    }
+  ]
+}

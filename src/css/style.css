@@ -1,0 +1,184 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+html {
+  color: #ccc;
+  background-color: #f0eaea;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-center {
+  text-align: center;
+}
+.justify-center {
+  justify-content: center;
+  margin: 0 auto;
+}
+.title {
+  font-size: 30px;
+}
+.container {
+  width: 1200px;
+}
+.container-dark {
+  width: 1200px;
+  background-color: #000;
+  opacity: 0.3;
+}
+.flex {
+  display: flex;
+}
+.font-20 {
+  font-size: 20px;
+}
+.button-blue {
+  padding: 0 5px;
+  background-color: #257bcba7;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.button-blue:hover {
+  cursor: pointer;
+  background-color: #257bcb;
+}
+article .bg {
+  background: url('../img/bg.jpg') no-repeat center center / cover;
+  width: 1200px;
+  height: 800px;
+}
+article .bg .input-form {
+  margin-top: 10px;
+  padding-top: 20px;
+}
+article .bg .input-form .taskInput {
+  margin-right: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+article .bg .input-form .taskInput:focus {
+  outline: none;
+}
+article .bg .input-form .addButton {
+  padding: 0 5px;
+  background-color: #257bcba7;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+article .bg .input-form .addButton:hover {
+  cursor: pointer;
+  background-color: #257bcb;
+}
+article .bg .taskContainer {
+  margin-top: 50px;
+  justify-content: space-around;
+}
+article .bg .taskContainer .list {
+  width: 400px;
+}
+article .bg .taskContainer .list .title {
+  background-color: #0000003c;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 10px;
+}
+article .bg .taskContainer .list .list-wrap {
+  background-color: #0000003c;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px 10px;
+}
+article .bg .taskContainer .list .list-wrap .item {
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #b8b6b6;
+}
+article .bg .taskContainer .list .list-wrap .item .item-left .task {
+  color: #e6e4e4;
+}
+article .bg .taskContainer .list .list-wrap .item .item-right .iconfont {
+  color: #257bcba7;
+  padding: 0 5px;
+}
+article .bg .taskContainer .list .list-wrap .item .item-right .iconfont:first-child {
+  border-right: 1px solid #b8b6b6;
+}
+article .bg .taskContainer .list .list-wrap .item .item-right .iconfont:hover {
+  cursor: pointer;
+  color: #257bcb;
+  font-weight: 500;
+}
+article .bg .taskContainer .leftList {
+  width: 400px;
+}
+article .bg .taskContainer .leftList .title {
+  background-color: #0000003c;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 10px;
+}
+article .bg .taskContainer .leftList .list-wrap {
+  background-color: #0000003c;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px 10px;
+}
+article .bg .taskContainer .leftList .list-wrap .item {
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #b8b6b6;
+}
+article .bg .taskContainer .leftList .list-wrap .item .item-left .task {
+  color: #e6e4e4;
+}
+article .bg .taskContainer .leftList .list-wrap .item .item-right .iconfont {
+  color: #257bcba7;
+  padding: 0 5px;
+}
+article .bg .taskContainer .leftList .list-wrap .item .item-right .iconfont:first-child {
+  border-right: 1px solid #b8b6b6;
+}
+article .bg .taskContainer .leftList .list-wrap .item .item-right .iconfont:hover {
+  cursor: pointer;
+  color: #257bcb;
+  font-weight: 500;
+}
+article .bg .taskContainer .rightList {
+  width: 400px;
+}
+article .bg .taskContainer .rightList .title {
+  background-color: #0000003c;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px 10px;
+}
+article .bg .taskContainer .rightList .list-wrap {
+  background-color: #0000003c;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px 10px;
+}
+article .bg .taskContainer .rightList .list-wrap .item {
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #b8b6b6;
+}
+article .bg .taskContainer .rightList .list-wrap .item .item-left .task {
+  color: #e6e4e4;
+}
+article .bg .taskContainer .rightList .list-wrap .item .item-right .iconfont {
+  color: #257bcba7;
+  padding: 0 5px;
+}
+article .bg .taskContainer .rightList .list-wrap .item .item-right .iconfont:first-child {
+  border-right: 1px solid #b8b6b6;
+}
+article .bg .taskContainer .rightList .list-wrap .item .item-right .iconfont:hover {
+  cursor: pointer;
+  color: #257bcb;
+  font-weight: 500;
+}

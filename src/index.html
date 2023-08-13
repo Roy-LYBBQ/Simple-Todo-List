@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Todo List</title>
+  <link rel="stylesheet/less" type="text/less" href="./css/style.less" />
+  <link rel="stylesheet" href="./font_4208510_8ar6tq1c9ne/iconfont.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container-dark justify-center">
+      <p class="text-center title">简单的Todo List案例</p>
+    </div>
+  </header>
+  <article>
+    <div class="bg justify-center">
+      <div class="input-form justify-center flex">
+        <input type="text" class="taskInput font-20" placeholder="接下来有什么任务呢？">
+        <button class="addButton font-20">添加</button>
+      </div>
+      <div class="container taskContainer flex">
+        <div class="leftList">
+          <p class="title text-center">~~Todo~~</p>
+          <ul class="list-wrap left-wrap">
+            <li class="left-item item flex">
+              <div class="item-left">
+                <span class="task">吃饭</span>
+              </div>
+              <div class="item-right flex">
+                <span class="iconfont add">&#xe8df;</span>
+                <span class="iconfont del">&#xe6a0;</span>
+              </div>
+            </li>
+            <li class="left-item item flex">
+              <div class="item-left">
+                <span class="task">睡觉</span>
+              </div>
+              <div class="item-right flex">
+                <span class="iconfont add">&#xe8df;</span>
+                <span class="iconfont del">&#xe6a0;</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="rightList">
+          <p class="title text-center">~~Completed~~</p>
+          <ul class="list-wrap right-wrap">
+            <li class="right-item item flex">
+              <div class="item-left">
+                <span class="task">打豆豆</span>
+              </div>
+              <div class="item-right flex">
+                <span class="iconfont un-add">&#xe867;</span>
+                <span class="iconfont del">&#xe6a0;</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <script src="./js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/less"></script>
+
+</body>
+
+</html>
